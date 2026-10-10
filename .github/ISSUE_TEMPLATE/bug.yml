@@ -1,0 +1,47 @@
+name: Signaler un bug
+description: Quelque chose ne fonctionne pas comme prévu.
+labels: [bug]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Version de l'application
+      description: Page « À propos » (par exemple 1.2.0).
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Version de Windows
+      description: Touche Windows + R, « winver » (par exemple 25H2, build 26200).
+    validations:
+      required: true
+  - type: dropdown
+    id: menu
+    attributes:
+      label: Menu par défaut
+      options:
+        - Moderne
+        - Classique
+        - Personnalisé
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Étapes pour reproduire
+      placeholder: "1. …\n2. …"
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Résultat attendu et résultat obtenu
+    validations:
+      required: true
+  - type: textarea
+    id: log
+    attributes:
+      label: Journal (facultatif)
+      description: Contenu de %LocalAppData%\Win11ContextMenu\shell.log (les dernières lignes suffisent).
+      render: text
