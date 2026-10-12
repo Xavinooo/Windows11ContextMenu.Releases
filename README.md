@@ -4,98 +4,133 @@
 
 <h1 align="center">Windows 11 Contextual Menu</h1>
 
-<p align="center"><strong>Reprenez la main sur le menu clic droit de Windows 11.</strong></p>
+<p align="center"><strong>Take back control of the Windows 11 right-click menu.</strong></p>
 
 <p align="center">
-  <a href="https://github.com/Xavinooo/Windows11ContextualMenu.Releases/releases/latest"><img alt="Dernière version" src="https://img.shields.io/github/v/release/Xavinooo/Windows11ContextualMenu.Releases?display_name=tag" /></a>
-  <a href="https://github.com/Xavinooo/Windows11ContextualMenu.Releases/releases"><img alt="Téléchargements" src="https://img.shields.io/github/downloads/Xavinooo/Windows11ContextualMenu.Releases/total.svg" /></a>
+  <a href="https://github.com/Xavinooo/Windows11ContextualMenu.Releases/releases/latest"><img alt="Latest version" src="https://img.shields.io/github/v/release/Xavinooo/Windows11ContextualMenu.Releases?display_name=tag" /></a>
+  <a href="https://github.com/Xavinooo/Windows11ContextualMenu.Releases/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/Xavinooo/Windows11ContextualMenu.Releases/total.svg" /></a>
   <img alt="Windows 11" src="https://img.shields.io/badge/Windows-11-0078D4?logo=windows11&logoColor=white" />
-  <a href="LICENSE"><img alt="Licence : gratuite, propriétaire" src="https://img.shields.io/badge/licence-gratuite%2C%20propri%C3%A9taire-555" /></a>
+  <a href="LICENSE"><img alt="License: free, proprietary" src="https://img.shields.io/badge/license-free%2C%20proprietary-555" /></a>
 </p>
 
 <p align="center">
-  <img src="images/menu-personnalise.png" alt="Le menu personnalisé : barre d'actions rapides, icônes en couleur et un groupe « Outils » ouvert" />
+  <a href="https://github.com/Xavinooo/Windows11ContextualMenu.Releases/releases/latest"><strong>⬇ Download</strong></a>
 </p>
 
-## Pourquoi ?
+<p align="center">
+  <img src="images/custom-menu.png" alt="The custom menu: quick action bar, colour icons and an open “Tools” group" />
+</p>
 
-Le menu clic droit de Windows 11 a été simplifié, mais au prix de plusieurs irritants :
+## Why?
 
-- **Deux menus au lieu d'un.** Beaucoup d'entrées (7-Zip, Notepad++, « Envoyer vers », « Imprimer »…) ne sont plus dans le nouveau menu : il faut cliquer sur « Afficher d'autres options » (ou Maj + F10) pour ouvrir l'ancien, à chaque fois.
-- **Rien à régler.** Windows n'offre aucun moyen de retirer une entrée inutile (« Partager », « Caster sur l'appareil », les ajouts des logiciels installés…), d'en ajouter une à soi ou de changer leur ordre ; il faut passer par le registre.
-- **Pas de retour simple à l'ancien menu.** Le rétablir par défaut demande une clé de registre peu connue, et l'ancien menu détonne : la plupart de ses entrées n'ont pas d'icône, et il ne ressemble pas au reste de Windows 11.
-- **Un menu qui s'encombre** au fil des logiciels installés, sans possibilité de le ranger.
+The Windows 11 right-click menu looks better, but it is less handy:
 
-Windows 11 Contextual Menu règle tout cela, sans rien modifier de Windows lui-même : un interrupteur suffit pour retrouver le menu d'origine.
+- **Two menus instead of one.** 7-Zip, Notepad++, “Send to”… are hidden behind “Show more options”.
+- **Nothing to adjust.** You cannot remove an entry, add one or change their order without editing the registry.
+- **The old menu looks out of place.** Bringing it back takes a little-known registry key, and it has neither icons nor a dark theme.
+- **It gets cluttered** as you install more software.
 
-## Ce que ça fait
+Windows 11 Contextual Menu fixes all this without modifying Windows: one switch brings back the original menu.
 
-- **Choisir le menu du clic droit** : le menu moderne de Windows 11, l'ancien menu classique directement (sans passer par « Afficher d'autres options »), ou le **menu personnalisé**.
-- **Masquer** les entrées de Windows et des applications (Partager, Épingler, Caster sur l'appareil, ESET, AMD…), dans le menu moderne comme dans le classique.
-- **Ajouter vos entrées** : une commande simple ou un sous-menu (un modèle 7-Zip est fourni), dans les deux menus, sans redémarrage.
-- **Le menu personnalisé** : le menu classique redessiné comme celui de Windows 11, en thème clair ou sombre, avec les mêmes icônes et la barre d'actions (Couper, Copier, Renommer, Supprimer). Toutes ses entrées se masquent, se rangent dans des groupes (avec une icône au choix), et se placent en haut ou en bas.
-- **Un interrupteur** pour retrouver le menu d'origine à tout moment, sans perdre vos réglages.
-- **Mises à jour** : l'application vous prévient d'une nouvelle version et l'installe en un clic.
+## What it does
 
-Les deux autres menus au choix, pour le même fichier :
+| | |
+| --- | --- |
+| 🎛️ **Choose your menu** | Modern, classic (without “Show more options”) or custom. |
+| 🙈 **Hide** | The entries of Windows and of your apps that you never use. |
+| ➕ **Add** | Your own commands or sub-menus (a 7-Zip template is provided). |
+| 🎨 **Custom menu** | The whole classic menu, redrawn like Windows 11: icons, light or dark theme, adjustable transparent background, action bar. Each entry can be hidden, grouped or moved. |
+| ⌨️ **Shortcuts** | Ctrl + right-click for Windows' classic menu, Ctrl + Shift to run as administrator. |
+| ↩️ **Go back** | One switch restores the original menu, without losing your settings. |
+| 🌍 **Six languages** | English, French, German, Spanish, Italian and Portuguese, following Windows. |
+| 🔄 **Updates** | The app lets you know and updates in one click. |
 
-| Menu moderne | Menu classique |
+| Modern menu | Classic menu |
 | :---: | :---: |
-| <img src="images/menu-moderne.png" alt="Menu moderne de Windows 11" /> | <img src="images/menu-classique.png" alt="Menu classique" /> |
+| <img src="images/modern-menu.png" alt="The Windows 11 modern menu" /> | <img src="images/classic-menu.png" alt="The classic menu" /> |
 
 <p align="center">
-  <img src="images/page-entrees-du-menu.png" alt="La page « Entrées du menu » : masquer, grouper et placer chaque entrée" width="820" />
+  <img src="images/menu-entries-page.png" alt="The “Menu entries” page: hide, group and place each entry" width="820" />
 </p>
+
+> [!IMPORTANT]
+> **Closely tied to how Windows works.** To change the menu, the app relies on how File Explorer builds its right-click menu, which Microsoft does not document and can change at any time. A simple Windows update, Insider builds first, can break part of it, the custom menu most of all. If that happens, one switch brings the original menu back while a fix is on its way: please report it in an [Issue](https://github.com/Xavinooo/Windows11ContextualMenu.Releases/issues/new/choose) with your Windows version.
 
 ## Installation
 
-Windows 11 (25H2 ou plus récent), x64. Téléchargez la dernière version sur la page [**Releases**](https://github.com/Xavinooo/Windows11ContextualMenu.Releases/releases/latest).
+Windows 11 (25H2 or later), x64. Download the latest version from the [**Releases**](https://github.com/Xavinooo/Windows11ContextualMenu.Releases/releases/latest) page.
 
-**Quel fichier choisir ?**
+| File | For whom |
+| --- | --- |
+| **Setup-selfcontained** ⭐ | The full installer, everything included. No administrator rights needed. |
+| **Setup-light** | The same, smaller, if you already have the [.NET 10 Desktop Runtime](https://dotnet.microsoft.com/download/dotnet/10.0) and the [Windows App SDK runtime](https://learn.microsoft.com/windows/apps/windows-app-sdk/downloads) (the release notes give its version). |
+| **selfcontained** (zip) | The full version, without installation. |
+| **light** (zip) | The light version, without installation. |
 
-- **Win11ContextMenu-Setup-selfcontained** (recommandé) : l'installeur complet. Tout est inclus (runtime .NET 10 et Windows App SDK). Il installe pour votre compte, sans droits administrateur, ajoute une entrée au menu Démarrer (et, si vous le voulez, une icône sur le Bureau). Se désinstalle depuis Paramètres > Applications.
-- **Win11ContextMenu-Setup-light** : le même installeur, plus léger, mais il demande le [.NET 10 Desktop Runtime (x64)](https://dotnet.microsoft.com/download/dotnet/10.0) et le [Windows App SDK 2.5 Runtime (x64)](https://learn.microsoft.com/windows/apps/windows-app-sdk/downloads) ; il vérifie leur présence et propose leurs pages de téléchargement.
-- **Win11ContextMenu-selfcontained** (zip) : la version complète, sans installation.
-- **Win11ContextMenu-light** (zip) : la version light, sans installation (mêmes prérequis).
+Zip version: extract it where you want to keep it, then run `ContextMenu.App.exe`. It must stay in that folder.
 
-Pour un zip : décompressez le dossier où vous voulez le garder, puis lancez `ContextMenu.App.exe`. **L'application doit rester dans ce dossier** : c'est de là que Windows charge l'extension de menu. Si vous la déplacez, elle propose de refaire l'enregistrement.
+<details>
+<summary><strong>“Windows protected your PC”</strong></summary>
 
-**Avertissement de Windows.** L'application n'est pas signée par une autorité reconnue : au premier lancement de l'installeur ou de l'exe, Windows peut afficher « Windows a protégé votre PC ». Cliquez sur **Informations complémentaires**, puis **Exécuter quand même**.
+<br>
 
-**Certificat.** Au premier lancement, l'application installe un certificat auto-signé dans le magasin « Personnes autorisées » de l'ordinateur (une demande d'autorisation administrateur). Il sert uniquement à enregistrer son extension de menu auprès de Windows. « Désinstaller complètement » le retire.
+The app is not signed by a recognised authority. Click **More info**, then **Run anyway**.
 
-## Premiers pas
+</details>
 
-1. Au premier lancement, cliquez sur **Installer** : l'application installe son certificat (une seule demande d'autorisation administrateur) et enregistre son extension de menu.
-2. En haut de la fenêtre, choisissez le **menu par défaut** : Moderne, Classique ou Personnalisé.
-3. Cochez « Masquer » sur les entrées dont vous ne voulez plus, puis cliquez sur **Redémarrer l'Explorateur** quand l'application vous le propose.
-4. Dans **Mes entrées**, ajoutez vos propres commandes : elles apparaissent tout de suite, sans redémarrage.
-5. En menu personnalisé, faites quelques clics droits (sur un fichier, un dossier, le fond d'un dossier) : la page **Entrées du menu** se remplit de ce que vous avez vu, et chaque entrée peut alors être masquée, groupée ou déplacée.
+<details>
+<summary><strong>Why a certificate?</strong></summary>
 
-## Mises à jour
+<br>
 
-- Rien à configurer : au démarrage, au plus une fois par 24 h, l'application vérifie s'il existe une nouvelle version. La page **À propos** permet aussi de vérifier à la main et affiche l'historique des nouveautés.
-- **Mettre à jour** télécharge la variante installée, vérifie son empreinte, remplace les fichiers et relance l'application. En cas d'échec, l'ancienne version est conservée.
-- Le menu de l'Explorateur passe à la nouvelle version à l'ouverture d'une nouvelle fenêtre de l'Explorateur, ou à la prochaine session.
-- Si l'application est installée dans un dossier protégé (comme `Program Files`), la mise à jour se fait à la main.
+On first launch, the app installs a self-signed certificate (one administrator prompt). It is only used to register its menu extension with Windows. “Uninstall completely” removes it.
 
-## Désinstallation
+</details>
 
-- **Dans l'application** : **Paramètres > Désinstaller complètement** rétablit le menu d'origine (entrées masquées rendues, extension de menu et certificat retirés), redémarre l'Explorateur et supprime vos réglages (tout le dossier `%LocalAppData%\Win11ContextMenu`). Pour une version zip, supprimez ensuite le dossier de l'application.
-- **Version installée** : Paramètres > Applications > Windows 11 Contextual Menu > Désinstaller. Le désinstalleur rétablit le menu d'origine et vous demande s'il faut supprimer vos réglages et redémarrer l'Explorateur tout de suite (sinon, le menu d'origine revient à la prochaine session). Il ne retire pas le certificat : pour tout enlever, passez d'abord par « Désinstaller complètement ».
+## Getting started
 
-## Limites connues
+1. Click **Install** on first launch.
+2. At the top of the window, choose the **default menu**.
+3. Tick “Hide” on the entries you no longer want, then click **Restart File Explorer**.
+4. In **My entries**, add your own commands.
+5. With the custom menu, right-click a few times: the **Menu entries** page fills up with what you have seen.
 
-- Quelques entrées du menu moderne ne peuvent pas être masquées (Copier en tant que chemin d'accès, Actions d'IA…) ; l'application les signale.
-- Masquer « Compresser vers », « Envoyer sur mon téléphone » ou « Partager avec » fait retomber Windows sur l'ancien menu ; l'application vous en avertit.
-- Masquer une entrée ou changer de menu par défaut demande de redémarrer l'Explorateur (un bouton le fait).
-- Menu personnalisé : une entrée n'apparaît dans la page « Entrées du menu » qu'après avoir été vue une fois dans un vrai menu.
-- Menu personnalisé : les lecteurs d'écran ne lisent pas les noms des entrées redessinées.
+## Updates
 
-## Signaler un problème
+At startup, at most once a day, the app checks whether a new version exists. **Update** downloads it, checks its fingerprint and restarts the app; if anything goes wrong, the previous version is kept.
 
-Un bug, une idée ? Ouvrez une [Issue](https://github.com/Xavinooo/Windows11ContextualMenu.Releases/issues/new/choose). Une question, un avis ? Passez par les [Discussions](https://github.com/Xavinooo/Windows11ContextualMenu.Releases/discussions). Pour un bug, indiquez la version (page **À propos**) et joignez si possible le journal `%LocalAppData%\Win11ContextMenu\shell.log`. La page **À propos** de l'application a aussi un lien « Signaler un problème ».
+## Uninstalling
 
-## Licence
+<details>
+<summary>See the two ways</summary>
 
-Gratuite, pour un usage personnel ou professionnel ; le code source n'est pas publié. Voir [LICENSE](LICENSE).
+<br>
+
+- **From the app**: **Settings > Uninstall completely** restores the original menu, removes the extension and the certificate, and deletes your settings. For a zip version, then delete its folder.
+- **Installed version**: Settings > Apps > Windows 11 Contextual Menu > Uninstall. The original menu comes back; the uninstaller asks whether to delete your settings and remove the certificate.
+
+</details>
+
+## Known limitations
+
+<details>
+<summary>See the list</summary>
+
+<br>
+
+- A few entries of the modern menu cannot be hidden (Copy as path, AI actions…).
+- Hiding “Compress to”, “Send to my phone” or “Share with” makes Windows fall back to the old menu; the app warns you.
+- Hiding an entry or changing the menu requires restarting File Explorer (a button does it).
+- Custom menu: an entry appears in “Menu entries” only after it has been seen once in a real menu.
+- Custom menu: screen readers do not read the names of the redrawn entries.
+
+</details>
+
+## A problem, an idea?
+
+- 🐞 A bug or an idea: open an [**Issue**](https://github.com/Xavinooo/Windows11ContextualMenu.Releases/issues/new/choose). Give the app version (**About** page) and your Windows version and, if you can, turn on **Settings > Diagnostic log**, reproduce the problem and attach `%LocalAppData%\Win11ContextMenu\shell.log`.
+- 💬 A question, some feedback: use the [**Discussions**](https://github.com/Xavinooo/Windows11ContextualMenu.Releases/discussions).
+
+## License
+
+Free, for personal or professional use. The source code is not published. See [LICENSE](LICENSE).

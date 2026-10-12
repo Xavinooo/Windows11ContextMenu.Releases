@@ -1,47 +1,47 @@
-name: Signaler un bug
-description: Quelque chose ne fonctionne pas comme prévu.
+name: Report a bug
+description: Something does not work as expected.
 labels: [bug]
 body:
   - type: input
     id: version
     attributes:
-      label: Version de l'application
-      description: Page « À propos » (par exemple 1.2.0).
+      label: App version
+      description: About page (for example 1.2.0).
     validations:
       required: true
   - type: input
     id: windows
     attributes:
-      label: Version de Windows
-      description: Touche Windows + R, « winver » (par exemple 25H2, build 26200).
+      label: Windows version
+      description: Windows key + R, “winver” (for example 25H2, build 26200).
     validations:
       required: true
   - type: dropdown
     id: menu
     attributes:
-      label: Menu par défaut
+      label: Default menu
       options:
-        - Moderne
-        - Classique
-        - Personnalisé
+        - Modern
+        - Classic
+        - Custom
     validations:
       required: true
   - type: textarea
     id: steps
     attributes:
-      label: Étapes pour reproduire
+      label: Steps to reproduce
       placeholder: "1. …\n2. …"
     validations:
       required: true
   - type: textarea
     id: expected
     attributes:
-      label: Résultat attendu et résultat obtenu
+      label: Expected result and actual result
     validations:
       required: true
   - type: textarea
     id: log
     attributes:
-      label: Journal (facultatif)
-      description: Contenu de %LocalAppData%\Win11ContextMenu\shell.log (les dernières lignes suffisent).
+      label: Log (optional)
+      description: Turn on Settings > Diagnostic log, reproduce the problem, then paste %LocalAppData%\Win11ContextMenu\shell.log (the last lines are enough).
       render: text

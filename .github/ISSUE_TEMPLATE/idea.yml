@@ -1,0 +1,14 @@
+name: Suggest an idea
+description: A missing feature, an improvement.
+labels: [enhancement]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: The idea
+    validations:
+      required: true
+  - type: textarea
+    id: usage
+    attributes:
+      label: What you would use it for
