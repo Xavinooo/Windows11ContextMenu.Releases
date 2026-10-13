@@ -11,6 +11,7 @@
   <a href="https://github.com/Xavinooo/Windows11ContextualMenu.Releases/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/Xavinooo/Windows11ContextualMenu.Releases/total.svg" /></a>
   <img alt="Windows 11" src="https://img.shields.io/badge/Windows-11-0078D4?logo=windows11&logoColor=white" />
   <a href="LICENSE"><img alt="License: free, proprietary" src="https://img.shields.io/badge/license-free%2C%20proprietary-555" /></a>
+  <a href="https://www.paypal.me/xaviergehl"><img alt="Donate with PayPal" src="https://img.shields.io/badge/Donate-PayPal-00457C?logo=paypal&logoColor=white" /></a>
 </p>
 
 <p align="center">
@@ -130,6 +131,14 @@ At startup, at most once a day, the app checks whether a new version exists. **U
 
 - 🐞 A bug or an idea: open an [**Issue**](https://github.com/Xavinooo/Windows11ContextualMenu.Releases/issues/new/choose). Give the app version (**About** page) and your Windows version and, if you can, turn on **Settings > Diagnostic log**, reproduce the problem and attach `%LocalAppData%\Win11ContextMenu\shell.log`.
 - 💬 A question, some feedback: use the [**Discussions**](https://github.com/Xavinooo/Windows11ContextualMenu.Releases/discussions).
+
+## Support the project
+
+The app is free. If it helps you, you can support its development:
+
+<p align="center">
+  <a href="https://www.paypal.me/xaviergehl"><img alt="Donate with PayPal" src="https://img.shields.io/badge/Donate-PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white" /></a>
+</p>
 
 ## License
 
