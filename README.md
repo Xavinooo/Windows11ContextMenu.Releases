@@ -43,6 +43,7 @@ Windows 11 Contextual Menu fixes all this without modifying Windows: one switch 
 | 🎨 **Custom menu** | The whole classic menu, redrawn like Windows 11: icons, light or dark theme, adjustable transparent background, action bar. Each entry can be hidden, grouped or moved. |
 | ⌨️ **Shortcuts** | Ctrl + right-click for Windows' classic menu, Ctrl + Shift to run as administrator. |
 | ↩️ **Go back** | One switch restores the original menu, without losing your settings. |
+| 💾 **Back up** | Export your settings to a file and import them back, on this PC or another one. |
 | 🌍 **Six languages** | English, French, German, Spanish, Italian and Portuguese, following Windows. |
 | 🔄 **Updates** | The app lets you know and updates in one click. |
 
