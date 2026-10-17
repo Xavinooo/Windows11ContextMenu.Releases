@@ -49,7 +49,7 @@ Windows 11 Context Menu fixes all this without modifying Windows: one switch bri
 
 | Modern menu | Classic menu |
 | :---: | :---: |
-| <img src="images/modern-menu.png" alt="The Windows 11 modern menu" /> | <img src="images/classic-menu.png" alt="The classic menu" /> |
+| <img src="images/modern-menu.png" alt="The Windows 11 modern menu" /> | <img src="images/classic-menu.png" alt="The classic menu, with an open sub-menu of your own entries" /> |
 
 <p align="center">
   <img src="images/menu-entries-page.png" alt="The “Menu entries” page: hide, group and place each entry" width="820" />
