@@ -43,5 +43,5 @@ body:
     id: log
     attributes:
       label: Log (optional)
-      description: Turn on Settings > Diagnostic log, reproduce the problem, then paste %LocalAppData%\Win11ContextMenu\shell.log (the last lines are enough).
+      description: Turn on Settings > Diagnostic log, reproduce the problem, then paste %LocalAppData%\Windows11ContextMenu\shell.log (the last lines are enough).
       render: text

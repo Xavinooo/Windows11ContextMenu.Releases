@@ -2,20 +2,20 @@
   <img src="images/app-icon.svg" width="128" height="128" alt="" />
 </p>
 
-<h1 align="center">Windows 11 Contextual Menu</h1>
+<h1 align="center">Windows 11 Context Menu</h1>
 
 <p align="center"><strong>Take back control of the Windows 11 right-click menu.</strong></p>
 
 <p align="center">
-  <a href="https://github.com/Xavinooo/Windows11ContextualMenu.Releases/releases/latest"><img alt="Latest version" src="https://img.shields.io/github/v/release/Xavinooo/Windows11ContextualMenu.Releases?display_name=tag" /></a>
-  <a href="https://github.com/Xavinooo/Windows11ContextualMenu.Releases/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/Xavinooo/Windows11ContextualMenu.Releases/total.svg" /></a>
+  <a href="https://github.com/Xavinooo/Windows11ContextMenu.Releases/releases/latest"><img alt="Latest version" src="https://img.shields.io/github/v/release/Xavinooo/Windows11ContextMenu.Releases?display_name=tag" /></a>
+  <a href="https://github.com/Xavinooo/Windows11ContextMenu.Releases/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/Xavinooo/Windows11ContextMenu.Releases/total.svg" /></a>
   <img alt="Windows 11" src="https://img.shields.io/badge/Windows-11-0078D4?logo=windows11&logoColor=white" />
   <a href="LICENSE"><img alt="License: free, proprietary" src="https://img.shields.io/badge/license-free%2C%20proprietary-555" /></a>
   <a href="https://www.paypal.me/xaviergehl"><img alt="Donate with PayPal" src="https://img.shields.io/badge/Donate-PayPal-00457C?logo=paypal&logoColor=white" /></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/Xavinooo/Windows11ContextualMenu.Releases/releases/latest"><strong>⬇ Download</strong></a>
+  <a href="https://github.com/Xavinooo/Windows11ContextMenu.Releases/releases/latest"><strong>⬇ Download</strong></a>
 </p>
 
 <p align="center">
@@ -31,7 +31,7 @@ The Windows 11 right-click menu looks better, but it is less handy:
 - **The old menu looks out of place.** Bringing it back takes a little-known registry key, and it has neither icons nor a dark theme.
 - **It gets cluttered** as you install more software.
 
-Windows 11 Contextual Menu fixes all this without modifying Windows: one switch brings back the original menu.
+Windows 11 Context Menu fixes all this without modifying Windows: one switch brings back the original menu.
 
 ## What it does
 
@@ -56,11 +56,11 @@ Windows 11 Contextual Menu fixes all this without modifying Windows: one switch 
 </p>
 
 > [!IMPORTANT]
-> **Closely tied to how Windows works.** To change the menu, the app relies on how File Explorer builds its right-click menu, which Microsoft does not document and can change at any time. A simple Windows update, Insider builds first, can break part of it, the custom menu most of all. If that happens, one switch brings the original menu back while a fix is on its way: please report it in an [Issue](https://github.com/Xavinooo/Windows11ContextualMenu.Releases/issues/new/choose) with your Windows version.
+> **Closely tied to how Windows works.** To change the menu, the app relies on how File Explorer builds its right-click menu, which Microsoft does not document and can change at any time. A simple Windows update, Insider builds first, can break part of it, the custom menu most of all. If that happens, one switch brings the original menu back while a fix is on its way: please report it in an [Issue](https://github.com/Xavinooo/Windows11ContextMenu.Releases/issues/new/choose) with your Windows version.
 
 ## Installation
 
-Windows 11 (25H2 or later), x64. Download the latest version from the [**Releases**](https://github.com/Xavinooo/Windows11ContextualMenu.Releases/releases/latest) page.
+Windows 11 (25H2 or later), x64. Download the latest version from the [**Releases**](https://github.com/Xavinooo/Windows11ContextMenu.Releases/releases/latest) page.
 
 | File | For whom |
 | --- | --- |
@@ -109,7 +109,7 @@ At startup, at most once a day, the app checks whether a new version exists. **U
 <br>
 
 - **From the app**: **Settings > Uninstall completely** restores the original menu, removes the extension and the certificate, and deletes your settings. For a zip version, then delete its folder.
-- **Installed version**: Settings > Apps > Windows 11 Contextual Menu > Uninstall. The original menu comes back; the uninstaller asks whether to delete your settings and remove the certificate.
+- **Installed version**: Settings > Apps > Windows 11 Context Menu > Uninstall. The original menu comes back; the uninstaller asks whether to delete your settings and remove the certificate.
 
 </details>
 
@@ -130,8 +130,8 @@ At startup, at most once a day, the app checks whether a new version exists. **U
 
 ## A problem, an idea?
 
-- 🐞 A bug or an idea: open an [**Issue**](https://github.com/Xavinooo/Windows11ContextualMenu.Releases/issues/new/choose). Give the app version (**About** page) and your Windows version and, if you can, turn on **Settings > Diagnostic log**, reproduce the problem and attach `%LocalAppData%\Win11ContextMenu\shell.log`.
-- 💬 A question, some feedback: use the [**Discussions**](https://github.com/Xavinooo/Windows11ContextualMenu.Releases/discussions).
+- 🐞 A bug or an idea: open an [**Issue**](https://github.com/Xavinooo/Windows11ContextMenu.Releases/issues/new/choose). Give the app version (**About** page) and your Windows version and, if you can, turn on **Settings > Diagnostic log**, reproduce the problem and attach `%LocalAppData%\Windows11ContextMenu\shell.log`.
+- 💬 A question, some feedback: use the [**Discussions**](https://github.com/Xavinooo/Windows11ContextMenu.Releases/discussions).
 
 ## Support the project
 
