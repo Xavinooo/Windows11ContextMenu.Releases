@@ -37,26 +37,24 @@ Windows 11 Context Menu fixes all this without modifying Windows: one switch bri
 
 | | |
 | --- | --- |
-| 🎛️ **Choose your menu** | Modern, classic (without “Show more options”) or custom. |
-| 🙈 **Hide** | The entries of Windows and of your apps that you never use. |
+| 🙈 **Hide** | The entries of Windows and of your apps that you never use, even those Windows will not let you remove (Open with, Send to…). |
 | ➕ **Add** | Your own commands or sub-menus (a 7-Zip template is provided). |
-| 🎨 **Custom menu** | The whole classic menu, redrawn like Windows 11: icons, light or dark theme, adjustable transparent background, action bar. Each entry can be hidden, grouped or moved. |
+| 🎨 **One menu** | Everything in a single menu, without “Show more options”, redrawn like Windows 11: icons, light or dark theme, adjustable transparent background, action bar. Each entry can be hidden, grouped or moved. |
 | ⌨️ **Shortcuts** | Ctrl + right-click for Windows' classic menu, Ctrl + Shift to run as administrator. |
 | ↩️ **Go back** | One switch restores the original menu, without losing your settings. |
 | 💾 **Back up** | Export your settings to a file and import them back, on this PC or another one. |
 | 🌍 **Six languages** | English, French, German, Spanish, Italian and Portuguese, following Windows. |
 | 🔄 **Updates** | The app lets you know and updates in one click. |
 
-| Modern menu | Classic menu |
-| :---: | :---: |
-| <img src="images/modern-menu.png" alt="The Windows 11 modern menu" /> | <img src="images/classic-menu.png" alt="The classic menu, with an open sub-menu of your own entries" /> |
-
 <p align="center">
   <img src="images/menu-entries-page.png" alt="The “Menu entries” page: hide, group and place each entry" width="820" />
 </p>
 
 > [!IMPORTANT]
-> **Closely tied to how Windows works.** To change the menu, the app relies on how File Explorer builds its right-click menu, which Microsoft does not document and can change at any time. A simple Windows update, Insider builds first, can break part of it, the custom menu most of all. If that happens, one switch brings the original menu back while a fix is on its way: please report it in an [Issue](https://github.com/Xavinooo/Windows11ContextMenu.Releases/issues/new/choose) with your Windows version.
+> **Closely tied to how Windows works.** To change the menu, the app relies on how File Explorer builds its right-click menu, which Microsoft does not document and can change at any time. A simple Windows update, Insider builds first, can break it. If that happens, one switch brings the original menu back while a fix is on its way: please report it in an [Issue](https://github.com/Xavinooo/Windows11ContextMenu.Releases/issues/new/choose) with your Windows version.
+
+> [!NOTE]
+> **Windows 11 26H2 and its new menu.** Newer Windows 11 builds have a new right-click menu and no longer open the classic one on their own. So that your menu still opens on a plain right-click there, the app runs a small program that starts with your Windows session. You can turn it off in Settings, under **Replace Windows' new context menu** — then open your menu with **Shift + right-click**. It only runs on PCs that have the new menu, and leaves nothing behind once turned off or uninstalled.
 
 ## Installation
 
@@ -80,22 +78,12 @@ The app is not signed by a recognised authority. Click **More info**, then **Run
 
 </details>
 
-<details>
-<summary><strong>Why a certificate?</strong></summary>
-
-<br>
-
-On first launch, the app installs a self-signed certificate (one administrator prompt). It is only used to register its menu extension with Windows. “Uninstall completely” removes it.
-
-</details>
-
 ## Getting started
 
-1. Click **Install** on first launch.
-2. At the top of the window, choose the **default menu**.
-3. Tick “Hide” on the entries you no longer want, then click **Restart File Explorer**.
+1. Launch the app, then click **Restart File Explorer**: the new menu replaces the Windows 11 one.
+2. Right-click a few times, on a file, a folder and a folder background: the **Menu entries** page fills up with what you have seen.
+3. Tick “Hide” on the entries you no longer want, group them or set their order: the change shows at the next right-click.
 4. In **My entries**, add your own commands.
-5. With the custom menu, right-click a few times: the **Menu entries** page fills up with what you have seen.
 
 ## Updates
 
@@ -108,8 +96,8 @@ At startup, at most once a day, the app checks whether a new version exists. **U
 
 <br>
 
-- **From the app**: **Settings > Uninstall completely** restores the original menu, removes the extension and the certificate, and deletes your settings. For a zip version, then delete its folder.
-- **Installed version**: Settings > Apps > Windows 11 Context Menu > Uninstall. The original menu comes back; the uninstaller asks whether to delete your settings and remove the certificate.
+- **From the app**: **Settings > Uninstall completely** restores the original menu, removes the extension and deletes your settings. For a zip version, then delete its folder.
+- **Installed version**: Settings > Apps > Windows 11 Context Menu > Uninstall. The original menu comes back; the uninstaller asks whether to delete your settings.
 
 </details>
 
@@ -120,11 +108,9 @@ At startup, at most once a day, the app checks whether a new version exists. **U
 
 <br>
 
-- A few entries of the modern menu cannot be hidden (Copy as path, AI actions…).
-- Hiding “Compress to”, “Send to my phone” or “Share with” makes Windows fall back to the old menu; the app warns you.
-- Hiding an entry or changing the menu requires restarting File Explorer (a button does it).
-- Custom menu: an entry appears in “Menu entries” only after it has been seen once in a real menu.
-- Custom menu: screen readers do not read the names of the redrawn entries.
+- Turning the menu on or off requires restarting File Explorer (a button does it).
+- An entry appears in “Menu entries” only after it has been seen once in a real menu.
+- Screen readers do not read the names of the redrawn entries.
 
 </details>
 
