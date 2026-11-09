@@ -40,7 +40,7 @@ Windows 11 Context Menu fixes all this without modifying Windows: one switch bri
 | 🙈 **Hide** | The entries of Windows and of your apps that you never use, even those Windows will not let you remove (Open with, Send to…). |
 | ➕ **Add** | Your own commands or sub-menus (a 7-Zip template is provided). |
 | 🎨 **One menu** | Everything in a single menu, without “Show more options”, redrawn like Windows 11: icons, light or dark theme, adjustable transparent background, action bar. Each entry can be hidden, grouped or moved. |
-| ⌨️ **Shortcuts** | Ctrl + right-click for Windows' classic menu, Ctrl + Shift to run as administrator. |
+| ⌨️ **Shortcuts** | Shift + right-click for Windows' classic menu, Ctrl + right-click for your menu with the extended commands (Ctrl + Shift: the extended classic menu), Ctrl + Shift on an entry to run it as administrator. |
 | ↩️ **Go back** | One switch restores the original menu, without losing your settings. |
 | 💾 **Back up** | Export your settings to a file and import them back, on this PC or another one. |
 | 🌍 **Six languages** | English, French, German, Spanish, Italian and Portuguese, following Windows. |
@@ -54,7 +54,7 @@ Windows 11 Context Menu fixes all this without modifying Windows: one switch bri
 > **Closely tied to how Windows works.** To change the menu, the app relies on how File Explorer builds its right-click menu, which Microsoft does not document and can change at any time. A simple Windows update, Insider builds first, can break it. If that happens, one switch brings the original menu back while a fix is on its way: please report it in an [Issue](https://github.com/Xavinooo/Windows11ContextMenu.Releases/issues/new/choose) with your Windows version.
 
 > [!NOTE]
-> **Windows 11 26H2 and its new menu.** Newer Windows 11 builds have a new right-click menu and no longer open the classic one on their own. So that your menu still opens on a plain right-click there, the app runs a small program that starts with your Windows session. You can turn it off in Settings, under **Replace Windows' new context menu** — then open your menu with **Shift + right-click**. It only runs on PCs that have the new menu, and leaves nothing behind once turned off or uninstalled.
+> **Windows 11 26H2 and its new menu.** Newer Windows 11 builds have a new right-click menu and no longer open the classic one on their own. So that your menu still opens on a plain right-click there, the app runs a small program that starts with your Windows session. You can turn it off in Settings, under **Replace Windows' new context menu** — Windows' new menu then shows instead. It only runs on PCs that have the new menu, and leaves nothing behind once turned off or uninstalled.
 
 ## Installation
 
