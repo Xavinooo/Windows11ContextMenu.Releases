@@ -63,7 +63,7 @@ Windows 11 (25H2 or later), x64. Download the latest version from the [**Release
 | File | For whom |
 | --- | --- |
 | **Setup-selfcontained** ⭐ | The full installer, everything included. No administrator rights needed. |
-| **Setup-light** | The same, smaller, if you already have the [.NET 10 Desktop Runtime](https://dotnet.microsoft.com/download/dotnet/10.0) and the [Windows App SDK runtime](https://learn.microsoft.com/windows/apps/windows-app-sdk/downloads) (the release notes give its version). |
+| **Setup-light** | The same, smaller, if you already have the [.NET 11 Desktop Runtime](https://dotnet.microsoft.com/download/dotnet/11.0) and the [Windows App SDK runtime](https://learn.microsoft.com/windows/apps/windows-app-sdk/downloads) (the release notes give its version). |
 | **selfcontained** (zip) | The full version, without installation. |
 | **light** (zip) | The light version, without installation. |
 
